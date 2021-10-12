@@ -1,9 +1,9 @@
-<div style="width: 1440px; height: 67px; left: 150px; right: 150px; background-color: #ffffff; position: absolute">
+<div style="width: 1440px; height: 67px; left: 150px; right: 150px; background-color: #ffffff; position: absolute; z-index: 2">
 
     <img src="{{asset("storage/images/Vector.png")}}" alt="logo" style="position: absolute; left: 10.43%; right: 87.77%; top: 0.3%; bottom: 99.19%; width: 25.91px; height: 30.45px; top: 17.66px; left: 150.25px">
 
     <div style="position: absolute; left: 13.11%; right: 81.23%; top: 0.21%; bottom: 99.02%; width: 81.49px; height: 46.18px">
-    <h2 style="position: absolute; left: 13.11%; right: 86.02%; top: 0.21%; bottom: 99.51%; width: 55.6px; height: 21.84px; color: #58595B; margin: 0px">Beyond<br>Body</h2>
+    <h4 style="position: absolute; left: 13.11%; right: 86.02%; top: 0.21%; bottom: 99.51%; width: 55.6px; height: 21.84px; color: #58595B; margin: 0px">Beyond<br>Body</h4>
     </div>
 
     <a href="#" style="position: absolute; width: 72px; height: 16px; left: 533px; top: 25px; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">FEATURES</a>
