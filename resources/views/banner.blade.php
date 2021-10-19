@@ -1,4 +1,4 @@
-<div style="width: 1440px; height: 701px; left: 150px; right: 150px; background-color: #ffffff; margin:auto; padding-top: 66px;">
+<div style="width: 1440px; height: 701px; left: 150px; right: 150px; position: absolute; background-color: #ffffff; margin:auto; padding-top: 66px;">
     <div class="row" style="height: 635px; width: 1440px;">
         <div class="col-6">
     <img src="{{asset("storage/images/VectorArrow.png")}}" alt="logoArrow" style="position: absolute; height:89.92px;width: 86.11px; left: 520.96px; right: 51.25%; top: 129px; bottom: 95.91%; transform: rotate(339deg);">

@@ -1,5 +1,5 @@
 <div style="height: 827px; top:700px; width: 1440px; position: absolute; margin: auto; left: 150px; right: 150px; padding-top:150px;">
-    <img src="{{asset("storage/images/istockphoto-1306676517-170667a.jpg")}}" alt="world" style="position: absolute; height: 827px; width:1440px; z-index: -1; margin-top:50px">
+    <img src="{{asset("storage/images/istockphoto-1306676517-170667a.jpg")}}" alt="world" style="position: absolute; height: 827px; width:1350px; z-index: -1; margin-top:50px">
     <div style="z-index: 2">
         <h3 style="position: initial;height: 96px;left: 31.25%;right: 31.25%; margin-top:60px ;font-family: Red Hat Text;font-style: normal;font-weight: bold;font-size: 36px; line-height: 48px; text-align: center; color: #303030;">Beyond Body helps people all<br>over the world</h3>
         <br><br>
