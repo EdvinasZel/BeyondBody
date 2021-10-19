@@ -1,4 +1,4 @@
-<div style="width: 1440px; height: 67px; left: 150px; right: 150px; background-color: #ffffff; position: absolute; z-index: 2">
+<div style="width: 1440px; height: 67px; left: 0px; right: 0px; margin:auto; background-color: #ffffff; position: absolute; z-index: 2">
 
     <img src="{{asset("storage/images/Vector.png")}}" alt="logo" style="position: absolute; left: 10.43%; right: 87.77%; top: 0.3%; bottom: 99.19%; width: 25.91px; height: 30.45px; top: 17.66px; left: 150.25px">
 

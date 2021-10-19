@@ -19,7 +19,7 @@
 <!-- NAVIGATION BAR -->
 @include('navbar')
 <!-- BREAK -->
-<div style="width: 1900px; height: 1px; top: 66px; left: 0px; right: 0px; background-color:rgba(34, 34, 34, 0.1); position: absolute; z-index: 3"></div>
+<div style="width: 1900px; margin:auto; height: 1px; top: 66px; left: 0px; right: 0px; background-color:rgba(34, 34, 34, 0.1); position: absolute; z-index: 3"></div>
 <!-- WELCOME BANNER -->
 @include('banner')
 <!-- AS FEATURED IN -->
@@ -35,7 +35,7 @@
 <!-- EXTRA CONTENT -->
 @include('extraContent')
 <!-- BREAK -->
-<div style="width: 1900px; height: 1px; top: 4650px; left: 0px; right: 0px; background-color:rgba(34, 34, 34, 0.1); position: absolute;"></div>
+<div style="width: 1900px; height: 1px; top: 4650px; left:0px; right:0px; margin: auto; background-color:rgba(34, 34, 34, 0.1); position: absolute;"></div>
 <!-- TESTIMONIALS -->
 @include('testimonials')
 <!-- JOURNEY -->
