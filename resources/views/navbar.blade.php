@@ -1,29 +1,93 @@
-<div style="width: 1440px; height: 67px; left: 150px; right: 150px; margin:auto; background-color: #ffffff; position: absolute; z-index: 2">
+{{--    DESKTOP NAVIGATION BAR    --}}
+<div class="desktop-navigation">
 
-    <img src="{{asset("storage/images/Vector.png")}}" alt="logo" style="position: absolute; left: 10.43%; right: 87.77%; top: 0.3%; bottom: 99.19%; width: 25.91px; height: 30.45px; top: 17.66px; left: 150.25px">
+<div style="width: 1440px; height: 67px; background-color: #ffffff; z-index: 2" class="container">
 
-    <div style="position: absolute; left: 13.11%; right: 81.23%; top: 0.21%; bottom: 99.02%; width: 81.49px; height: 46.18px">
-    <h4 style="position: absolute; left: 13.11%; right: 86.02%; top: 0.21%; bottom: 99.51%; width: 55.6px; height: 21.84px; color: #58595B; margin: 0px">Beyond<br>Body</h4>
-    </div>
+    <div class="row" style="height: 67px;">
 
-    <a href="#" style="position: absolute; width: 72px; height: 16px; left: 533px; top: 25px; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">FEATURES</a>
-    <a href="#" style="position: absolute; width: 63px; height: 16px; left: 644px; top: 25px; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">REVIEWS</a>
-    <a href="#" style="position: absolute; width: 71px; height: 16px; left: 753px; top: 25px; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">ABOUT US</a>
-    <a href="#" style="position: absolute; width: 39px; height: 16px; left: 868px; top: 25px; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">BLOG</a>
+        <div class="col-3">
 
-    <div style="position: absolute; width: 40px; height: 15px; left: 1092px; top: 20px; width: 32px; height:32px; background-color: #FFFFFF">
-    <div class="dropdown">
-        <button class="dropbtn"><img src="{{asset("storage/images/748050_flag_usa_icon.png")}}"></button>
-        <div class="dropdown-content">
-            <a href="#"><img src="{{asset("storage/images/748067_flag_germany_icon.png")}}"></a>
-            <a href="#"><img src="{{asset("storage/images/748120_flag_spain_icon.png")}}"></a>
+            <div class="row">
+                <div class="col-1 pt-3">
+                    <img src="{{asset("storage/images/Vector.png")}}" alt="logo">
+                </div>
+                <div class="col-11 ps-4">
+                    <h4>Beyond<br>Body</h4>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-6">
+            <div class="row" style="height: 67px;">
+                <div class="col text-center pt-3">
+                    <a href="#" style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">FEATURES</a>
+                </div>
+                <div class="col text-center pt-3">
+                    <a href="#" style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">FEATURES</a>
+                </div>
+                <div class="col text-center pt-3">
+                    <a href="#" style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">FEATURES</a>
+                </div>
+                <div class="col text-center pt-3">
+                    <a href="#" style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: right; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #222222">FEATURES</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+
+            <div class="row" style="height: 67px;">
+                <div class="col-5 pt-3 text-end">
+                    <div class="dropdown-l">
+                        <button class="dropbtn"><img src="{{asset("storage/images/748050_flag_usa_icon.png")}}"></button>
+                    <div class="dropdown-content">
+                        <a href="#"><img src="{{asset("storage/images/748067_flag_germany_icon.png")}}"></a>
+                        <a href="#"><img src="{{asset("storage/images/748120_flag_spain_icon.png")}}"></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-7 pt-3 text-end">
+                    <button style="background-color: #FE7677; border-radius: 6px; width: 128px; height: 38px; top: 14px; left: 1162px">
+                        <h style="font-family: Red Hat Text ;font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: center; letter-spacing: 2px; color: #FFFFFF">START NOW</h>
+                    </button>
+                </div>
+            </div>
+
         </div>
     </div>
     </div>
 
-    <button style="position: absolute; left: 80.69%; right: 10.42%; top: 0.24%; bottom: 99.13%; background-color: #FE7677; border-radius: 6px; width: 128px; height: 38px; top: 14px; left: 1162px">
-        <h style="position: absolute; height: 16px; right: 11.74%; bottom: 25%; font-style: normal; font-weight: bold; font-size: 12px; line-height: 16px; text-align: center; letter-spacing: 2px; color: #FFFFFF">START NOW</h>
-    </button>
-
 </div>
 
+{{--    MOBILE DEVICE NAVIGATION BAR--}}
+
+<div class="mobile-navigation">
+
+<div class="container" style="width: auto; height: 57px; background-color: #ffffff; z-index: 2">
+
+        <div class="row" style="height: 57px;">
+            <div class="col p-0">
+                <div class="row" style="height: 57px;">
+                        <div class="col-4 text-center ps-3 pt-3">
+                        <img src="{{asset("storage/images/Vector.png")}}" alt="logo" style="height: 22px; width: 20px;">
+                        </div>
+                        <div class="col-8 text-left p-0 pt-2">
+                            <h4 style="font-family: Red Hat Text;">Beyond<br>Body</h4>
+                        </div>
+                </div>
+            </div>
+            <div class="col p-0 pt-3 text-right">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
