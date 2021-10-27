@@ -167,7 +167,93 @@
     width: 100%;
 }
 
+.trustpilot-image-desktop{
+    height: 827px;
+    right: 200px;
+    position: absolute;
+    z-index: -5;
+}
 
+.trustpilot-image-mobile{
+    display: none;
+}
+
+.trustpilot-text-1 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #303030;
+}
+
+.trustpilot-text-2 {
+    text-align: center;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    color: #30AEC6;
+}
+
+.trustpilot-text-3 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #222222;
+}
+
+.trustpilot-stars {
+    height: 19px;
+    width: 100px;
+}
+
+.trustpilot-text-4 {
+    padding-top:12px;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.trustpilot-text-5 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #222222;
+}
+
+.trustpilot-verified {
+    height: 20px;
+    width: 20px;
+}
+
+.trustpilot-text-6 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00B67A;
+    mix-blend-mode: normal;
+}
+
+.trustpilot-logo {
+    height: 76px;
+    width: 130px;
+    margin-top:60px;
+    text-align: center;
+}
 
 @media only screen and (max-width: 990px) {
     .banner{
@@ -213,6 +299,25 @@
         align-content: center;
         padding: 0px;
         width: 100%;
+    }
+    .change-to-column {
+        flex-direction: column;
+    }
+    .width-max {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .trustpilot-image-desktop{
+        display: none;
+    }
+    .trustpilot-image-mobile{
+        position: fixed;
+        z-index: -5;
+        height: 450px;
+        padding: 0px;
+        left: -80px;
+        width: 500px;
+        display: flex;
     }
 }
 
