@@ -20,8 +20,6 @@
 <body>
 <!-- NAVIGATION BAR -->
 @include('navbar')
-<!-- BREAK -->
-<div class="page-break"></div>
 <!-- WELCOME BANNER -->
 @include('banner')
 <!-- AS FEATURED IN -->

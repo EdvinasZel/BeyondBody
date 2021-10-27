@@ -35,20 +35,16 @@
 }
 
 .banner-logo {
-    position: absolute;
-    height:89.92px;
-    width: 86.11px;
-    left: 420.96px;
-    top: 129px;
-    bottom: 95.91%;
-    transform: rotate(339deg);
+    height: 50px;
+    transform: rotate(350deg);
+}
+
+.overflow-cap {
+    overflow: hidden;
+    height: 635px;
 }
 
 .banner-text-1 {
-    position: absolute;
-    width: 342px;
-    height: 21px;
-    top: 139px;
     font-family: Red Hat Text;
     font-style: normal;
     font-weight: bold;
@@ -60,10 +56,6 @@
 }
 
 .banner-text-2 {
-    position: absolute;
-    height: 116px;
-    width: 430px;
-    top: 170px;
     font-family: Red Hat Text;
     font-style: normal;
     font-weight: bold;
@@ -73,10 +65,6 @@
 }
 
 .banner-text-3 {
-    position: absolute;
-    width: 500px;
-    height: 60px;
-    top: 296px;
     font-family: Red Hat Text;
     font-style: normal;
     font-weight: normal;
@@ -87,10 +75,6 @@
 }
 
 .banner-text-4 {
-    position: absolute;
-    width: 193px;
-    height: 28px;
-    top: 376px;
     font-family: Red Hat Text;
     font-style: normal;
     font-weight: bold;
@@ -102,9 +86,6 @@
 }
 
 .banner-button-1 {
-    position:absolute;
-    top: 420px;
-    bottom: 91.1%;
     background: #30AEC6;
     border-radius: 6px;
     width: 210px;
@@ -114,10 +95,6 @@
 }
 
 .banner-button-2 {
-    position:absolute;
-    left: 306px;
-    top: 420px;
-    bottom: 91.1%;
     background: #FE7677;
     border-radius: 6px;
     width: 210px;
@@ -141,11 +118,102 @@
     color: #FFFFFF;
 }
 
-.e-background {
-    /*animation: bgScroll 1500s linear infinite;*/
-    background-image: url("public\storage\images\soc-proof-new-min.jpg");
+.e-background-desktop {
+    animation: slide 20s linear infinite;
     background-size: cover;
+    height: 2180px;
+    clip: rect(0px, 1000px, 635px, 0px);
+}
 
+.e-background-mobile {
+    display: none;
+}
+
+@keyframes slide {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(0, -1545px, 0);
+    }
+}
+
+@keyframes slide-mobile {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(-1000px, 0, 0);
+    }
+}
+
+.featured {
+    background-color: #F0F2F1; !important;
+    width: 1900px;
+}
+
+
+.navbar {
+    border-bottom: 1px solid rgba(34,34,34,.1);
+}
+
+.banner-text-area {
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.gender-buttons {
+    display: flex;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .e-background-desktop {
+        display: none;
+    }
+    .e-background-mobile {
+        display: flex;
+        height: 220px;
+        animation: slide-mobile 20s linear infinite;
+        background-size: cover;
+        width: 1400px;
+    }
+    .banner-logo {
+        display: none;
+    }
+    .banner-text-area {
+        margin-top: 0px;
+        padding-top: 1rem;
+        width: 100%;
+    }
+    .disabled {
+        display: none;
+    }
+    .overflow-cap {
+        overflow: hidden;
+        height: 100%;
+    }
+    .featured {
+        width: 100%;
+    }
+    .featured-row {
+        flex-direction: column;
+    }
+    .featured-row .col-2 {
+        width: 100%;
+        text-align: center;
+    }
+    .featured-row .col-10 {
+        align-content: center;
+        padding: 0px;
+        width: 100%;
+    }
 }
 
 /* Dropdown Button */
