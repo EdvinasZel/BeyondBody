@@ -8,23 +8,23 @@
         <div class="collapse navbar-collapse" id="navbarsExample07" style="z-index: 1000">
             <ul class="navbar-nav me-auto mx-auto">
                 <li class="nav-item px-5">
-                    <a class="nav-link" href="#"><h class="logo-text">Features</h></a>
+                    <a class="nav-link" href="#"><h1 class="logo-text">Features</h1></a>
                 </li>
                 <li class="nav-item px-5">
-                    <a class="nav-link" href="#"><h class="logo-text">Reviews</h></a>
+                    <a class="nav-link" href="#"><h1 class="logo-text">Reviews</h1></a>
                 </li>
                 <li class="nav-item px-5">
-                    <a class="nav-link" href="#"><h class="logo-text">About Us</h></a>
+                    <a class="nav-link" href="#"><h1 class="logo-text">About Us</h1></a>
                 </li>
                 <li class="nav-item px-5">
-                    <a class="nav-link" href="#"><h class="logo-text">Blog</h></a>
+                    <a class="nav-link" href="#"><h1 class="logo-text">Blog</h1></a>
                 </li>
             </ul>
             <div class="dropdown px-5">
-                <button class="dropbtn"><img src="{{asset("storage/images/748050_flag_usa_icon.png")}}"></button>
+                <button class="dropbtn"><img src="{{asset("storage/images/748050_flag_usa_icon.png")}}" alt="language"></button>
                 <div class="dropdown-content">
-                    <a href="#"><img src="{{asset("storage/images/748067_flag_germany_icon.png")}}"></a>
-                    <a href="#"><img src="{{asset("storage/images/748120_flag_spain_icon.png")}}"></a>
+                    <a href="#"><img src="{{asset("storage/images/748067_flag_germany_icon.png")}}" alt="language"></a>
+                    <a href="#"><img src="{{asset("storage/images/748120_flag_spain_icon.png")}}" alt="language"></a>
                 </div>
             </div>
             <button style="background-color: #FE7677; border-radius: 6px; width: 128px; height: 38px; top: 14px; left: 1162px">

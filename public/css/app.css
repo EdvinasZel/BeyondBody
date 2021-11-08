@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
-
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap);
 .logo-text {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -13,7 +12,7 @@
 }
 
 .button-text {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -27,8 +26,8 @@
     width: 1900px;
     margin:auto;
     height: 1px;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     background-color:rgba(34, 34, 34, 0.1);
     position: absolute;
     z-index: 3;
@@ -45,7 +44,7 @@
 }
 
 .banner-text-1 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -56,7 +55,7 @@
 }
 
 .banner-text-2 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
@@ -65,7 +64,7 @@
 }
 
 .banner-text-3 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -75,7 +74,7 @@
 }
 
 .banner-text-4 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -91,7 +90,7 @@
     width: 210px;
     height: 49px;
     border-color:#30AEC6;
-    border:0px;
+    border:0;
 }
 
 .banner-button-2 {
@@ -100,7 +99,7 @@
     width: 210px;
     height: 49px;
     border-color:#FE7677;
-    border:0px;
+    border:0;
 }
 
 .banner-button-text {
@@ -108,7 +107,7 @@
     left: 15.62%;
     right: 80.21%;
     top: calc(50% - 24px/2 - 2467px);
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -119,7 +118,8 @@
 }
 
 .e-background-desktop {
-    animation: slide 20s linear infinite;
+    -webkit-animation: slide 20s linear infinite;
+            animation: slide 20s linear infinite;
     background-size: cover;
     height: 2180px;
     clip: rect(0px, 1000px, 635px, 0px);
@@ -129,12 +129,30 @@
     display: none;
 }
 
+@-webkit-keyframes slide {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(0, -1545px, 0);
+    }
+}
+
 @keyframes slide {
     0%{
         transform: translate3d(0,0,0);
     }
     100% {
         transform: translate3d(0, -1545px, 0);
+    }
+}
+
+@-webkit-keyframes slide-mobile {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(-1000px, 0, 0);
     }
 }
 
@@ -148,7 +166,7 @@
 }
 
 .featured {
-    background-color: #F0F2F1; !important;
+    background-color: #F0F2F1 !important;
     width: 1900px;
 }
 
@@ -185,7 +203,7 @@
 }
 
 .trustpilot-text-1 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -196,17 +214,16 @@
 
 .trustpilot-text-2 {
     text-align: center;
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 53px;
-    text-align: center;
     color: #30AEC6;
 }
 
 .trustpilot-text-3 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -222,7 +239,7 @@
 
 .trustpilot-text-4 {
     padding-top:12px;
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -231,7 +248,7 @@
 }
 
 .trustpilot-text-5 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -245,7 +262,7 @@
 }
 
 .trustpilot-text-6 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -262,7 +279,7 @@
 }
 
 .description-text-1 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -272,7 +289,7 @@
 }
 
 .description-text-2 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -283,7 +300,7 @@
 }
 
 .description-text-3 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -292,7 +309,7 @@
     color: #222222;
 }
 .description-text-4 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 11px;
@@ -303,7 +320,7 @@
 }
 
 .description-text-5 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -312,7 +329,7 @@
 }
 
 .description-text-6 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -321,7 +338,7 @@
 }
 
 .description-text-7 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -329,7 +346,7 @@
 }
 
 .description-text-8 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -337,7 +354,7 @@
 }
 
 .description-text-9 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: italic;
     font-weight: normal;
     font-size: 14px;
@@ -360,7 +377,7 @@
 }
 
 .journey-text-1 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 34px;
@@ -369,7 +386,7 @@
 }
 
 .journey-text-2 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -378,7 +395,7 @@
 }
 
 .journey-text-3 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     text-align: center;
     font-style: normal;
     font-weight: 500;
@@ -390,7 +407,7 @@
 }
 
 .footer-text-1 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -400,7 +417,7 @@
 }
 
 .footer-text-2 {
-    font-family: Red Hat Text;
+    font-family: Red Hat Text, sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -421,7 +438,8 @@
     .e-background-mobile {
         display: flex;
         height: 220px;
-        animation: slide-mobile 20s linear infinite;
+        -webkit-animation: slide-mobile 20s linear infinite;
+                animation: slide-mobile 20s linear infinite;
         background-size: cover;
         width: 1400px;
     }
@@ -429,12 +447,12 @@
         display: none;
     }
     .banner-text-area {
-        margin-top: 0px;
+        margin-top: 0;
         padding-top: 1rem;
         width: 100%;
     }
     .text-area {
-        margin-top: 0px;
+        margin-top: 0;
         padding-top: 1rem;
         width: 100%;
     }
@@ -457,7 +475,7 @@
     }
     .featured-row .col-10 {
         align-content: center;
-        padding: 0px;
+        padding: 0;
         width: 100%;
     }
     .change-to-column {
@@ -474,12 +492,12 @@
         position: absolute;
         z-index: -5;
         height: 450px;
-        padding: 0px;
+        padding: 0;
         width: 500px;
         display: flex;
     }
     .description-text-1 {
-        font-family: Red Hat Text;
+        font-family: Red Hat Text, sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
@@ -487,7 +505,7 @@
         color: #222222;
     }
     .description-text-2 {
-        font-family: Red Hat Text;
+        font-family: Red Hat Text, sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -496,7 +514,7 @@
         color: #222222;
     }
     .description-text-3 {
-        font-family: Red Hat Text;
+        font-family: Red Hat Text, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -507,7 +525,7 @@
         display: flex;
     }
     .journey-text-1{
-        font-family: Red Hat Text;
+        font-family: Red Hat Text, sans-serif;
         font-style: normal;
         font-weight: bold;
         text-align: center;
@@ -516,7 +534,7 @@
         color: #222222;
     }
     .journey-text-2 {
-        font-family: Red Hat Text;
+        font-family: Red Hat Text, sans-serif;
         font-style: normal;
         font-weight: normal;
         text-align: center;
@@ -555,7 +573,7 @@
     background-color: white;
     height: 32px;
     width: 32px;
-    padding: 0px;
+    padding: 0;
     border: none;
 }
 
@@ -591,4 +609,5 @@
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+
 

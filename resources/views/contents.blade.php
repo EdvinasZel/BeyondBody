@@ -8,13 +8,13 @@
                     <img src="{{asset("storage/images/fruit-apple 1.png")}}" alt="desc1" style="height: 46px; width: 46px;">
                     </div>
                     <div class="col-10">
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 11px; line-height: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #30AEC6;">Recovery Plan</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #30AEC6;">Recovery Plan</h>
                         <br>
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 20px; line-height: 32px; color: #222222;">Learn how to turn failures into worthy lessons</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: bold; font-size: 20px; line-height: 32px; color: #222222;">Learn how to turn failures into worthy lessons</h>
                         <br>
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled">Falling off track is too common to be stressing about it. A step-by-step recovery plan will be your safety net. </h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled">Falling off track is too common to be stressing about it. A step-by-step recovery plan will be your safety net. </h>
                     </div>
-                    <h style="font-family: Red Hat Text; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled-desktop">Falling off track is too common to be stressing about it. A step-by-step recovery plan will be your safety net. </h>
+                    <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled-desktop">Falling off track is too common to be stressing about it. A step-by-step recovery plan will be your safety net. </h>
                 </div>
 
                 <div class="row pb-4">
@@ -22,13 +22,13 @@
                     <img src="{{asset("storage/images/single-woman-check 1.png")}}" alt="desc2" style="height: 46px; width: 46px;">
                     </div>
                     <div class="col-10">
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 11px; line-height: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #30AEC6;">LIFESTYLE GUIDANCE</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #30AEC6;">LIFESTYLE GUIDANCE</h>
                         <br>
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 20px; line-height: 32px; color: #222222;">Get healthy habits for good</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: bold; font-size: 20px; line-height: 32px; color: #222222;">Get healthy habits for good</h>
                         <br>
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled">Learn how to maintain a healthy lifestyle and boost your self-esteem for good. </h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled">Learn how to maintain a healthy lifestyle and boost your self-esteem for good. </h>
                     </div>
-                    <h style="font-family: Red Hat Text; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled-desktop">Learn how to maintain a healthy lifestyle and boost your self-esteem for good. </h>
+                    <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled-desktop">Learn how to maintain a healthy lifestyle and boost your self-esteem for good. </h>
                 </div>
 
                 <div class="row">
@@ -36,13 +36,13 @@
                     <img src="{{asset("storage/images/shield-check-1 2.png")}}" alt="desc2" style="height: 46px; width: 46px;">
                     </div>
                     <div class="col-10">
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 11px; line-height: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #30AEC6;">STRESS MANAGEMENT</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #30AEC6;">STRESS MANAGEMENT</h>
                         <br>
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: bold; font-size: 20px; line-height: 32px; color: #222222;">Set the mind right for a healthy body</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: bold; font-size: 20px; line-height: 32px; color: #222222;">Set the mind right for a healthy body</h>
                         <br>
-                        <h style="font-family: Red Hat Text; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled">Managing weight can be overwhelming. Get all the knowledge to ease the stress and increase confidence.</h>
+                        <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled">Managing weight can be overwhelming. Get all the knowledge to ease the stress and increase confidence.</h>
                     </div>
-                    <h style="font-family: Red Hat Text; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled-desktop">Managing weight can be overwhelming. Get all the knowledge to ease the stress and increase confidence.</h>
+                    <h style="font-family: Red Hat Text, sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #222222;" class="disabled-desktop">Managing weight can be overwhelming. Get all the knowledge to ease the stress and increase confidence.</h>
                 </div>
 
         </div>
