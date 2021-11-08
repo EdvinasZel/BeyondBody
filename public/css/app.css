@@ -167,6 +167,12 @@
     width: 100%;
 }
 
+.journey-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .trustpilot-image-desktop{
     height: 827px;
     right: 200px;
@@ -255,6 +261,155 @@
     text-align: center;
 }
 
+.description-text-1 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #222222;
+}
+
+.description-text-2 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #222222;
+}
+
+.description-text-3 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #222222;
+}
+.description-text-4 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #30AEC6;
+}
+
+.description-text-5 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #222222;
+}
+
+.description-text-6 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.description-text-7 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #222222;
+}
+
+.description-text-8 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.8);
+}
+
+.description-text-9 {
+    font-family: Red Hat Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.disabled-desktop {
+    display: none;
+}
+
+.gray-background {
+    background: #F9FAF9;
+}
+
+.testimonial-arrow {
+    width: 141px;
+    height: 37px;
+    padding-top: 17px;
+}
+
+.journey-text-1 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 48px;
+    color: #222222;
+}
+
+.journey-text-2 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.journey-text-3 {
+    font-family: Red Hat Text;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #222222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-text-1 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.footer-text-2 {
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 @media only screen and (max-width: 990px) {
     .banner{
         display: flex;
@@ -274,6 +429,11 @@
         display: none;
     }
     .banner-text-area {
+        margin-top: 0px;
+        padding-top: 1rem;
+        width: 100%;
+    }
+    .text-area {
         margin-top: 0px;
         padding-top: 1rem;
         width: 100%;
@@ -311,14 +471,83 @@
         display: none;
     }
     .trustpilot-image-mobile{
-        position: fixed;
+        position: absolute;
         z-index: -5;
         height: 450px;
         padding: 0px;
-        left: -80px;
         width: 500px;
         display: flex;
     }
+    .description-text-1 {
+        font-family: Red Hat Text;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        color: #222222;
+    }
+    .description-text-2 {
+        font-family: Red Hat Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #222222;
+    }
+    .description-text-3 {
+        font-family: Red Hat Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #222222;
+    }
+    .disabled-desktop{
+        display: flex;
+    }
+    .journey-text-1{
+        font-family: Red Hat Text;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        font-size: 34px;
+        line-height: 48px;
+        color: #222222;
+    }
+    .journey-text-2 {
+        font-family: Red Hat Text;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        color: #222222;
+    }
+    .content-left {
+        text-align: left;
+    }
+    .footer-float-left{
+        float: left;
+    }
+    .footer-column-1 {
+        order: 1;
+    }
+    .footer-column-2 {
+        order: 2;
+        width: 50%;
+    }
+    .footer-column-3 {
+        order: 4;
+    }
+    .footer-column-4 {
+        order: 3;
+        width: 50%;
+    }
+    .footer-column-5 {
+        order: 5;
+    }
+
 }
 
 /* Dropdown Button */

@@ -1,4 +1,4 @@
-<div class="container trustpilot pt-5">
+<div class="container trustpilot pt-5 pb-5">
     <div style="z-index: 2">
         <img src="{{asset("storage/images/img.png")}}" alt="world" class="trustpilot-image-desktop">
         <h3 class="trustpilot-text-1">Beyond Body helps people all<br>over the world</h3>

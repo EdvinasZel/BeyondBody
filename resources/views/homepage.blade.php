@@ -35,7 +35,7 @@
 <!-- EXTRA CONTENT -->
 @include('extraContent')
 <!-- BREAK -->
-<div style="width: 1900px; height: 1px; top: 4650px; left:0px; right:0px; margin: auto; background-color:rgba(34, 34, 34, 0.1); position: absolute;"></div>
+<div class="my-3" style="border: 1px solid rgba(34,34,34,.1)"></div>
 <!-- TESTIMONIALS -->
 @include('testimonials')
 <!-- JOURNEY -->
